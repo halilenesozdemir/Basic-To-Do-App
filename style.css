@@ -1,0 +1,76 @@
+body {
+    margin:0;
+    padding: 0;
+    background: #ccc;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+
+#inputText {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black; 
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid red;
+    border-radius: 10px;
+    color: green;
+}
+
+#addToDo {
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#addToDo:active {
+    background: blue;
+    color: white;
+}
+
+#clearToDo {
+    height: 45px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#clearToDo:active {
+    background: yellow;
+    color: black;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: black;
+    text-transform: capitalize;
+}
+.to-dos {
+    margin-top: 25px;
+}
